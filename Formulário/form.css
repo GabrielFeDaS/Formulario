@@ -1,0 +1,83 @@
+body{
+    background: gray;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: lightgray;
+    padding: 1em;
+}
+
+.cabecalho{
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.cabecalho img{
+    width: 15%;
+}
+
+.cabecalho ul{
+    vertical-align: middle;
+    display: flex;
+    list-style-type: none;
+}
+
+.cabecalho ul li{
+    margin-right: 1em;
+}
+
+.cabecalho ul li:last-child{
+    margin-right: 0;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+	width: 950px;
+	margin: 0 auto;
+	background: darkgray;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+form h1 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.fodase {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 0 350px;
+}
+
+form p {
+	margin: 30px 100px;
+	color: purple;
+}
+
+input {
+	margin: 20px auto;
+	display: block;
+	width: 80%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+button {
+	margin: 0 375px;
+	width: 20%;
+	padding: 5px;
+	border-radius: 10px;
+}
